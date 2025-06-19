@@ -21,7 +21,7 @@ ScoutNFT is a platform that allows users to discover and collect NFTs. It provid
 - React
 
 ## UI Screen
-![App Demo](assets/screen.png)
+![App Demo](frontend/src/assets/screen.png)
 
 ## Installation
 
