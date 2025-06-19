@@ -1,0 +1,41 @@
+# Node (React)
+**/node_modules/
+**/dist/
+**/.vite/
+**/vite.svg
+
+virtual-env/
+.virtual-env/
+
+# Python (FastAPI + ML)
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.mypy_cache/
+**/.pytest_cache/
+**/env/
+**/venv/
+**/.venv/
+**/.ipynb_checkpoints/
+
+# Logs and IDEs
+*.log
+*.sqlite3
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter Notebooks (optional)
+**/.ipynb_checkpoints/
+
+# Docker artifacts (optional)
+**/docker-compose.override.yml
+**/data/
+dataset/*
+public/dataset/*
+backend/database.py
+backend/model/clip_with_metadata.pt
+backend/model/nft_embeddings.npy
+backend/model/nft_texts.json
+nftdb_backup.sql

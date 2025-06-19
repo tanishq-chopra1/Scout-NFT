@@ -1,0 +1,120 @@
+.nft-detail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    color: var(--text-color-primary);
+    background-color: var(--background-dark);
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .nft-detail-main {
+    margin-bottom: 3rem;
+  }
+  
+  .nft-detail-image {
+    max-width: 100%;
+    max-height: 600px;
+    border-radius: 16px;
+    object-fit: contain;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .nft-detail-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+  }
+  
+  .nft-title {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #7ce8ed;
+  }
+  
+  .nft-path {
+    font-size: 0.95rem;
+    color: var(--text-color-secondary);
+    margin-bottom: 1.5rem;
+  }
+  
+  .back-button {
+    background-color: var(--primary-color, #00bcd4);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: var(--border-radius, 8px);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: var(--primary-hover, #0097a7);
+  }
+  
+  .nft-detail-similar {
+    text-align: left;
+  }
+  
+  .similar-title {
+    font-size: 1.5rem;
+    color: #7ce8ed;
+    margin-bottom: 1rem;
+  }
+  
+  .similar-nfts-scroll {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: #7ce8ed transparent;
+  }
+  
+  .similar-nfts-scroll::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .similar-nfts-scroll::-webkit-scrollbar-thumb {
+    background: #7ce8ed;
+    border-radius: 4px;
+  }
+  
+  .similar-nft-item {
+    min-width: 150px;
+    text-align: center;
+    background-color: #1c1c1c;
+    padding: 0.5rem;
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+  }
+  
+  .similar-nft-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .similar-nft-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .nft-title {
+      font-size: 1.75rem;
+    }
+  
+    .nft-detail-image {
+      max-height: 400px;
+    }
+  
+    .back-button {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.95rem;
+    }
+  }
+  
