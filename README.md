@@ -20,6 +20,9 @@ ScoutNFT is a platform that allows users to discover and collect NFTs. It provid
 - Supabase
 - React
 
+## UI Screen
+![App Demo](assets/screen.png)
+
 ## Installation
 
 1. Clone the repository
