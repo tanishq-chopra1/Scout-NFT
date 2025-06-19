@@ -28,3 +28,4 @@ backend/model/clip_with_metadata.pt
 backend/model/nft_embeddings.npy
 backend/model/nft_texts.json
 nftdb_backup.sql
+frontend/.env
